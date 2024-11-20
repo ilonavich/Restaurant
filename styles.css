@@ -16,3 +16,9 @@ body {
   margin: auto;
   color: rgb(63, 58, 58);
 }
+
+/* Header */
+.main-nav a {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+/* End of header */
