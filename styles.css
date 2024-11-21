@@ -22,3 +22,26 @@ body {
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 /* End of header */
+
+/*Idea for Flexbox of footer content*/
+footer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.footer-flex-container {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.footer-flex-container:first-child {
+  margin-left: 0;
+} /*selects all elements in this class which are the first*/
+
+.footer-flex-container:last-child {
+  align-self: end;
+  margin-right: 0;
+}
