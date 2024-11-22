@@ -15,6 +15,9 @@ body {
   max-width: 1100px;
   margin: auto;
   color: rgb(63, 58, 58);
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 /* Header */
@@ -30,6 +33,10 @@ footer {
   justify-content: center;
   flex-direction: row;
   gap: 1rem;
+  margin-top: auto;
+  margin-bottom: 2rem;
+  padding: 2rem 3rem;
+  border-radius: 0.5rem;
 }
 
 .footer-flex-container {
@@ -37,14 +44,6 @@ footer {
   margin-right: auto;
 }
 
-.footer-flex-container:first-child {
-  margin-left: 0;
-} /*selects all elements in this class which are the first*/
-
-.footer-flex-container:last-child {
-  align-self: end;
-  margin-right: 0;
-}
 .Footerlogo {
-  width: 70px;
+  width: 200px;
 }
